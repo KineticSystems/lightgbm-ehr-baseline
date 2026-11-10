@@ -1,0 +1,272 @@
+{
+  "schema_version": "1",
+  "status": "complete_bounded_split_rng_search",
+  "upstream_commit": "60e0b10f0e967fbada08ee6c164fc7c97932c57b",
+  "seed": 1234,
+  "rng_kind": [
+    "Mersenne-Twister",
+    "Inversion",
+    "Rejection"
+  ],
+  "searched_name_draws": {
+    "minimum": 0,
+    "maximum": 300,
+    "inclusive": true,
+    "candidates": 301
+  },
+  "matching_rule": {
+    "loader_counts": {
+      "train": 34290,
+      "validation": 7343,
+      "test": 7353
+    },
+    "sample_counts": {
+      "train": 2398546,
+      "validation": 513636,
+      "test": 512454
+    },
+    "training_age_mean": 63.552770000000002,
+    "training_age_sd": 17.259564000000001,
+    "age_absolute_tolerance": 5.1000000000000003e-06
+  },
+  "matching_name_draws": 72,
+  "released_script": {
+    "identified_name_draws": 37,
+    "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+    "trace_name_draws": {
+      "after_set_seed": 0,
+      "after_static_concepts": 2,
+      "after_timeseries_concepts": 37,
+      "after_los_filter": 37,
+      "after_fill_gaps": 37,
+      "after_histograms": 37,
+      "after_eligible_filter": 37
+    },
+    "signature": {
+      "prefilter_counts": {
+        "train": 34546,
+        "validation": 7403,
+        "test": 7402
+      },
+      "loader_counts": {
+        "train": 34291,
+        "validation": 7359,
+        "test": 7336
+      },
+      "sample_counts": {
+        "train": 2400198,
+        "validation": 508207,
+        "test": 516231
+      },
+      "training_age_mean": 63.478608232501593,
+      "training_age_sd": 17.30336601257099
+    }
+  },
+  "paper_evaluated_state": {
+    "identified_name_draws": 72,
+    "pre_split_rng_sha256": "6dd4ba42d5e418370956f80414fafffe41a0589649706b33203454a608c140a4",
+    "signature": {
+      "prefilter_counts": {
+        "train": 34546,
+        "validation": 7403,
+        "test": 7402
+      },
+      "loader_counts": {
+        "train": 34290,
+        "validation": 7343,
+        "test": 7353
+      },
+      "sample_counts": {
+        "train": 2398546,
+        "validation": 513636,
+        "test": 512454
+      },
+      "training_age_mean": 63.552770219417589,
+      "training_age_sd": 17.259564149644472
+    },
+    "relation_to_released_state": "exactly 35 additional RICU temporary-name draws; this is equivalent to one additional 41-channel time-series loader invocation and is not evidence that the authors literally made that invocation"
+  },
+  "runtime_probes": [
+    {
+      "label": "ricu_0.5.2_dplyr_1.1.2",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    },
+    {
+      "label": "ricu_0.5.1_dplyr_1.1.2",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    },
+    {
+      "label": "ricu_0.5.0_dplyr_1.1.2",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    },
+    {
+      "label": "ricu_0.4.1.9000_commit_99e9766_dplyr_1.1.2",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    },
+    {
+      "label": "ricu_0.4.1.9000_commit_af175c3_dplyr_1.1.2",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    },
+    {
+      "label": "ricu_0.5.1_dplyr_1.0.9",
+      "input_rds_sha256": "8071742d87d968e97fb9749a8f333a3b3b6e3e0ecdca25fa8f0db3d0b704a179",
+      "rng_kind": [
+        "Mersenne-Twister",
+        "Inversion",
+        "Rejection"
+      ],
+      "pre_split_rng_sha256": "0c206a90d90b15baaaf4db06185f0716bcf8e24035561f7a4b76938ff48e3344",
+      "identified_name_draws": 37,
+      "signature": {
+        "prefilter_counts": {
+          "train": 34546,
+          "validation": 7403,
+          "test": 7402
+        },
+        "loader_counts": {
+          "train": 34291,
+          "validation": 7359,
+          "test": 7336
+        },
+        "sample_counts": {
+          "train": 2400198,
+          "validation": 508207,
+          "test": 516231
+        },
+        "training_age_mean": 63.478608232501593,
+        "training_age_sd": 17.30336601257099
+      }
+    }
+  ],
+  "retained_data": "aggregate signatures and cryptographic hashes only; no patient rows"
+}

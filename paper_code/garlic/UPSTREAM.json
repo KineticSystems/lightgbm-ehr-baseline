@@ -1,0 +1,12 @@
+{
+  "paper_name": "garlic",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "aa2cd2c2d434fc80b6705eec66d54060327995de",
+      "path": ".",
+      "url": "https://github.com/SCAI-Lab/GARLIC.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

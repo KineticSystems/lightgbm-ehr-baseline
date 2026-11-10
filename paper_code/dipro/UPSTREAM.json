@@ -1,0 +1,12 @@
+{
+  "paper_name": "dipro",
+  "repositories": [
+    {
+      "branch": "master",
+      "commit": "64b12ec6fc9455ba873af0597804500f0d25afc2",
+      "path": ".",
+      "url": "https://github.com/Chenliu-svg/DiPro.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

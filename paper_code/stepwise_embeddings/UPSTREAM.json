@@ -1,0 +1,15 @@
+{
+  "paper_name": "stepwise_embeddings",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "e66cbdde0aff7dde7197d4520ec9df29b3edd58a",
+      "path": ".",
+      "submodules": [
+        "0582563440eee1b7998b68165a96cefe92d6077d tls (heads/master)"
+      ],
+      "url": "https://github.com/ratschlab/clinical-embeddings.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

@@ -1,0 +1,17 @@
+# Reconstructed direct environment with only the Blackwell-required Torch/CUDA
+# family and its dependency floors changed from the frozen runtime.
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy==1.26.4
+pandas==2.1.4
+polars==1.43.2
+pyarrow==22.0.0
+PyYAML==6.0.2
+scikit-learn==1.3.2
+scipy==1.11.4
+sympy==1.13.3
+threadpoolctl==3.2.0
+joblib==1.3.2
+torch==2.7.0+cu128
+triton==3.3.0
+typing_extensions==4.13.2
+tqdm==4.66.1

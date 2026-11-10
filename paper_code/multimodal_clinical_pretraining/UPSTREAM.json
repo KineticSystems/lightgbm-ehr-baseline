@@ -1,0 +1,12 @@
+{
+  "paper_name": "multimodal_clinical_pretraining",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "655c26a23880950cc270df5681b981e6869e26df",
+      "path": ".",
+      "url": "https://github.com/kingrc15/multimodal-clinical-pretraining.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

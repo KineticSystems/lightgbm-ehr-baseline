@@ -1,0 +1,12 @@
+{
+  "paper_name": "smart",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "f0c89f9757f098feec8eb2aaeb0a8f27c37cc80b",
+      "path": ".",
+      "url": "https://github.com/yzhHoward/SMART.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

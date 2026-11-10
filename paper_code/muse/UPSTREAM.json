@@ -1,0 +1,12 @@
+{
+  "paper_name": "muse",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "cdec2aceff40bad0679df2dc2716cdc13e8ae315",
+      "path": ".",
+      "url": "https://github.com/zzachw/MUSE.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

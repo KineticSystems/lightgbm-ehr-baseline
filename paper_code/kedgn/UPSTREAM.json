@@ -1,0 +1,13 @@
+{
+  "paper_name": "kedgn",
+  "repositories": [
+    {
+      "branch": "master",
+      "commit": "c82bc004cd1d1305fc58ca7150369d78682fccad",
+      "path": ".",
+      "status": "vendored",
+      "url": "https://github.com/qianlima-lab/KEDGN.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

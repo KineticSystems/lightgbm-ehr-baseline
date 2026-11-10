@@ -1,0 +1,12 @@
+{
+  "paper_name": "medpatch",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "f33c5ed61c0ea00c28051bb2b7b50ed50485b90b",
+      "path": ".",
+      "url": "https://github.com/nyuad-cai/MedPatch.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

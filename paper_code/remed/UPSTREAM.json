@@ -1,0 +1,18 @@
+{
+  "paper_name": "remed",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "eb444fad98b842be3c4d10bb690fd2f85f6ad90e",
+      "path": ".",
+      "url": "https://github.com/starmpcc/REMed.git"
+    },
+    {
+      "branch": "master",
+      "commit": "3b7f68663d6c4c95b3a79e0649ad4593a63cb5cb",
+      "path": "dependencies/integrated-ehr-pipeline",
+      "url": "https://github.com/Jwoo5/integrated-ehr-pipeline.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

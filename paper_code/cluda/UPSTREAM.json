@@ -1,0 +1,13 @@
+{
+  "paper_name": "cluda",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "60e0b10f0e967fbada08ee6c164fc7c97932c57b",
+      "path": ".",
+      "status": "vendored",
+      "url": "https://github.com/oezyurty/CLUDA"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

@@ -1,0 +1,20 @@
+{
+  "paper_name": "fusemoe",
+  "repositories": [
+    {
+      "archive_sha256": "c8cf35a0003c9160df480c665e99d257c8d9a58bec00043dd8dad48c56ad7e90",
+      "branch": "main",
+      "commit": "52ea655e2103b4daf1033572ca354cabc496bd87",
+      "commit_date": "2026-03-26T19:31:45Z",
+      "commit_message": "Update README with dataset access details",
+      "path": ".",
+      "url": "https://github.com/aaronhan223/FuseMoE.git"
+    }
+  ],
+  "history_notes": [
+    "The official repository is a GitHub fork of https://github.com/XZhang97666/MultimodalMIMIC.",
+    "Public ref inspection on 2026-08-28 found one branch (main) and no tags.",
+    "Current main was selected because it is within the review cutoff and adds the authors' current dataset-access instructions; the publication-era history remains reachable from this pinned snapshot."
+  ],
+  "retrieved": "2026-08-28"
+}

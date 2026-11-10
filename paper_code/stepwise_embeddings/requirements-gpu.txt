@@ -1,0 +1,33 @@
+# Runtime packages exercised by the selected MIMIC FTT path. Versions are
+# copied from the verified Python 3.9.25 CPU environment. The only intentional
+# framework substitution is the oldest official CUDA 12.8 family supporting
+# the RTX 5090 (sm_120).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.7.0+cu128
+torchvision==0.22.0+cu128
+torchaudio==2.7.0+cu128
+
+accelerate==0.18.0
+filelock==3.19.1
+gin-config==0.5.0
+h5py==3.9.0
+Jinja2==3.1.6
+joblib==1.5.3
+lightgbm==3.3.5
+MarkupSafe==3.0.3
+matplotlib==3.7.3
+networkx==3.2.1
+numpy==1.24.4
+packaging==26.3
+pandas==1.5.3
+pillow==11.3.0
+pytorch-ignite==0.4.12
+PyYAML==6.0.1
+scikit-learn==1.2.2
+scipy==1.10.1
+seaborn==0.12.2
+sympy==1.14.0
+tables==3.8.0
+tensorboard==2.12.3
+tqdm==4.65.0
+typing-extensions==4.16.0

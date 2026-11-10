@@ -1,0 +1,12 @@
+{
+  "paper_name": "merge",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "75de1f059030e23a9629ed9fdd0d31b56e29ffe4",
+      "path": ".",
+      "url": "https://github.com/aaronhan223/merge.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

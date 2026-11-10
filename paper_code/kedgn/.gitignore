@@ -1,0 +1,7 @@
+*.iml
+*.xml
+*.bin
+*.model
+*.msgpack
+*.zip
+*.ipynb

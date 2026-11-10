@@ -1,0 +1,8 @@
+# Frozen export environment for td_icu_mortality.
+# Python 3.11.15. Every export and check script runs
+# .venv/bin/python from this directory; see EXPORT_GUIDE.md for how to
+# create it.
+h5py==3.11.0
+numpy==2.1.1
+polars==1.7.1
+pyarrow==22.0.0

@@ -1,0 +1,39 @@
+# Frozen export environment for smart.
+# Python 3.10.20. Every export and check script runs
+# .venv/bin/python from this directory; see EXPORT_GUIDE.md for how to
+# create it.
+#
+# torch is pinned without a build tag, which the CPU build satisfies.
+# Install that build first and this file will leave it in place:
+#
+#   .venv/bin/pip install torch==2.1.2+cpu \
+#       --index-url https://download.pytorch.org/whl/cpu
+#
+# Without it the resolver takes the default build from PyPI, which
+# carries the CUDA runtime and is several times larger for no gain:
+# nothing here needs a GPU. nvidia-* and triton wheels are likewise
+# never pinned, because torch selects them for itself.
+filelock==3.32.3
+fsspec==2026.7.0
+Jinja2==3.1.6
+joblib==1.5.3
+MarkupSafe==3.0.3
+mpmath==1.3.0
+networkx==3.4.2
+numpy==1.26.4
+pandas==2.1.4
+polars==1.43.2
+polars-runtime-32==1.43.2
+pyarrow==22.0.0
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+PyYAML==6.0.2
+scikit-learn==1.3.2
+scipy==1.15.3
+six==1.17.0
+sympy==1.14.0
+threadpoolctl==3.6.0
+torch==2.1.2
+tqdm==4.66.1
+typing_extensions==4.16.0
+tzdata==2026.3

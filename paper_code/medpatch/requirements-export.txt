@@ -1,0 +1,13 @@
+# Frozen export environment for medpatch.
+# Python 3.8. Every export and check script runs
+# .venv/bin/python from this directory; see EXPORT_GUIDE.md for how to
+# create it.
+numpy==1.23.5
+pandas==1.5.3
+polars==1.8.2
+pyarrow==17.0.0
+python-dateutil==2.9.0.post0
+pytz==2026.3.post1
+PyYAML==5.3.1
+six==1.17.0
+tqdm==4.67.1

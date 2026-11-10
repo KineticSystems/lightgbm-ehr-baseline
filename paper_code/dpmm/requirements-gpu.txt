@@ -1,0 +1,25 @@
+# Released DPMM Python environment, with only the Torch/CUDA family and the
+# Torch-required SymPy patch level changed for Blackwell sm_120 execution.
+--extra-index-url https://download.pytorch.org/whl/cu128
+numpy==2.0.1
+pandas==2.2.3
+polars==1.43.2
+pyarrow==22.0.0
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.9.2
+transformers==4.45.1
+tokenizers==0.20.0
+huggingface-hub==0.25.1
+safetensors==0.4.5
+wandb==0.18.2
+nltk==3.9.1
+packaging==24.1
+PyYAML==6.0.1
+regex==2024.9.11
+requests==2.32.3
+tqdm==4.66.5
+typing_extensions==4.11.0
+sympy==1.13.3
+torch==2.7.0+cu128
+triton==3.3.0

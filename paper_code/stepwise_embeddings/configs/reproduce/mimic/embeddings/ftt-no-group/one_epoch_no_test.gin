@@ -1,0 +1,4 @@
+# Diagnostic override parsed after the frozen primary configuration. It changes
+# only epoch count and test access for the required full one-epoch benchmark.
+DLWrapper.train.epochs = 1
+train_common.do_test = False

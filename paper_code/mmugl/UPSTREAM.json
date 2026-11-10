@@ -1,0 +1,12 @@
+{
+  "paper_name": "mmugl",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "73556144b14958d41b1fc1d7541c61b51fedf8b3",
+      "path": ".",
+      "url": "https://github.com/ratschlab/mmugl.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

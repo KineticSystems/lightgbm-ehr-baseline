@@ -1,0 +1,13 @@
+{
+  "paper_name": "ddl_cxr",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "0ddd5485d3f4baf0334e206618f0a3d9cd0e04a5",
+      "path": ".",
+      "status": "vendored",
+      "url": "https://github.com/Chenliu-svg/DDL-CXR.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

@@ -1,0 +1,12 @@
+{
+  "paper_name": "semi_supervised_meta_learning",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "426c1766e287dec5782855a430ec14c5cacc3a94",
+      "path": ".",
+      "url": "https://github.com/lidazhang/ssml-time-series-heterogeneity.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

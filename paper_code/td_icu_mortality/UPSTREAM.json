@@ -1,0 +1,12 @@
+{
+  "paper_name": "td_icu_mortality",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "235ca921bb200dffe6c854ef16949a94435758f4",
+      "path": ".",
+      "url": "https://github.com/tdgfrost/td-icu-mortality.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

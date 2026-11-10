@@ -1,0 +1,12 @@
+{
+  "paper_name": "graphcare",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "fe92aa67add80b62d4b5108d570b6483ee69a5d4",
+      "path": ".",
+      "url": "https://github.com/pat-jj/GraphCare.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

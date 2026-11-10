@@ -1,0 +1,12 @@
+{
+  "paper_name": "oc_distill",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "9599f6ec7dcf2d74cc1b7ac049b59053ece337b9",
+      "path": ".",
+      "url": "https://github.com/the-chen-lab/OC-Distill.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}

@@ -1,0 +1,13 @@
+{
+  "paper_name": "dpmm",
+  "repositories": [
+    {
+      "branch": "main",
+      "commit": "17d0314ff0b21dde31f3f932e02d4683826029aa",
+      "path": ".",
+      "status": "vendored",
+      "url": "https://github.com/HKU-MedAI/DPMM.git"
+    }
+  ],
+  "retrieved": "2026-08-28"
+}
