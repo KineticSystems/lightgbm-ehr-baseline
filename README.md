@@ -1,9 +1,10 @@
-# Adding a LightGBM baseline to published EHR prediction papers
+# A Simple LightGBM Baseline Beats Most Deep Learning Methods for Structured EHR Prediction
 
-This release contains the code to reproduce the baselines reported in the paper:
-the per-paper exporters that convert each published cohort into the Medical
-Event Data Standard (MEDS), and the single LightGBM baseline that runs on any
-of those exported cohorts.
+Over the past several years, many deep learning methods have been developed to improve risk prediction using structured electronic health record (EHR) data. However, papers proposing such methods typically only evaluate them against other deep learning methods, overlooking simple yet powerful techniques such as gradient-boosted trees (e.g., XGBoost and LightGBM).
+
+Our ML4H 2026 paper "A Simple LightGBM Baseline Beats Most Deep Learning Methods for Structured EHR Prediction" investigates this. We do a literature review and find that only 20.9% of deep learning papers include a gradient-boosted tree baseline. We determine the extent of the problem by adding LightGBM baselines to published papers, and find that our LightGBM baselines achieve higher AUROC scores than 81% of the proposed deep learning methods.
+
+This repository contains our code for running the LightGBM experiments in our paper, including our LightGBM baseline as well as our code for extracting cohorts from published work.
 
 ## Setup
 
